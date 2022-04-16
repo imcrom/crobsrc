@@ -10,44 +10,30 @@ import React from 'react';
 
 const Header = () => {
 
-  //State setup for dropdown in Nav
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () =>{
-    setAnchorEl(null);
-  }
-
 
   return (
     <Grid className='top'>
-      <AppBar className='appBar' position='absolute' sx={{ backgroundColor: '#333'}}>
+      <AppBar className='appBar' position='relative' sx={{ backgroundColor: '#0A0608'}}>
         <Toolbar className='tBar'>
-            <Typography variant="h4" component="h2" sx={{ paddingLeft: '40px'}}>
-              React
-              <i className='fab fa-react'></i>
+            <Typography variant="h4" component="h2" sx={{ color: '#2E7D32', paddingLeft: '40px', fontFamily: 'NINJA'}}>
+              Crobnobi
             </Typography>
-            <Button className='button' color="inherit">Home</Button>
-            <Button className='button' color="inherit">Services</Button>
-            <Button className='button' color="inherit">About Us</Button>
-            <Button className='button' color="inherit">Portfolio</Button>
-            <Button className='button' id="basic-button" onClick={handleClick} color="inherit">
-              Dropdown <i className="fas fa-angle-double-down"></i>
-            </Button>
-            <Menu
-              anchorEl={anchorEl}
-              open={open}
-              onClose={handleClose}
-            >
-            <MenuItem onClick={handleClose}>Item 1</MenuItem>
-            <MenuItem onClick={handleClose}>Item 2</MenuItem>
-            <MenuItem onClick={handleClose}>Item 3</MenuItem>
-          </Menu>
+            <Button className='button' color="inherit" href='#overlay'>Home</Button>
+            <Button className='button' color="inherit" href='#tokenomics'>Tokenomics</Button>
+            <Button className='button' color="inherit" href='#roadmap'>Roadmap</Button>
+            <Button className='button' color="inherit" href='#footer'>Socials</Button>
             <div>
-              <Button className='button' color="inherit" variant="outlined" sx={{ marginRight: '20px'}}>Login</Button> 
-              <Button className='button' color="inherit" variant="outlined">Sign Up</Button> 
+              <Button className='button' color="inherit" variant="outlined" sx={{ color: '#2E7D32', marginRight: '20px'}} onClick={
+                  (e) =>{
+                    e.preventDefault();
+                    window.location.href='https://app.bogged.finance/cro/swap?chain=cronos&tokenIn=CRO&tokenOut=0x90B29dB06577B0C5624E178A81377F2E0A095d2B&embed=1&theme=light';
+                  }
+                }>Buy Token</Button> 
+              <Button className='button' color="inherit" variant="outlined" sx={{color: '#2E7D32'}} onClick={
+                  (e) =>{
+                    e.preventDefault();
+                    window.location.href='https://dexscreener.com/cronos/0xfb307dc1d74facef5a43bf34aabf2731571761b7';
+                  }}>View Chart</Button> 
             </div>
           <Burger/>
         </Toolbar>

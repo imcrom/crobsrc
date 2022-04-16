@@ -24,10 +24,10 @@ const Burger = () => {
         onClose={handleClose}
       >
         <Box className='modal'>
-          <Button color="inherit">Home</Button>
-          <Button color="inherit">Services</Button>
-          <Button color="inherit">About Us</Button>
-          <Button color="inherit">Portfolio</Button>
+          <Button href='#overlay' color="inherit">Home</Button>
+          <Button href='#tokenomics' color="inherit">Tokenomics</Button>
+          <Button href='#roadmap'color="inherit">Roadmap</Button>
+          <Button href='#footer' color="inherit">Socials</Button>
         </Box>
       </Modal>
     </div>
