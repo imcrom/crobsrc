@@ -49,28 +49,28 @@ function Hero() {
           <div className='container2'>
             <Typography sx={{ 
             fontFamily: 'NINJA', 
-            color: '#fff',
+            color: '#EAC778',
             fontWeight: 'bold',
             fontSize: { xs: 35, sm: 50, md: 57, lg: 70, xl: 90},
             textAlign: { xs: 'center', sm: 'center', md:'left', lg: 'left', xl:'left'},
          
               
-            }} variant='h2' component='h1'>Crobnobi</Typography>
+            }} variant='h2' component='h1'>Arabian Shibnobi</Typography>
             
             <Typography sx={{  
             fontSize: '25px', 
             fontSize: { xs: 20},
             color: '#fff',
             fontFamily: 'Roboto Mono'
-            }} variant='h4' component='h1'>the <b>$CRINJA</b> token of cronos chain. 
-            This token is a community-owned and driven token platform that aims to revolutionize the cronos chain.</Typography>
+            }} variant='h4' component='h1'>the <b>$ArabianShinja</b> token of binance chain. 
+            This token is a community-owned and driven token platform that aims to revolutionize the binance chain.</Typography>
             <br></br>
 
 
             <div className='buttons-hero'>
 
-              <div>
-                <Button variant='contained'size='large' color='success' sx={{ marginRight: '40px',}} onClick={
+              {/* <div>
+                <Button variant='contained'size='large' color='success' style={{ backgroundColor: '#EAC778'}} sx={{ marginRight: {xs: '10px', md:'40px', lg:'40px', xl:'40px'},}} onClick={
                   (e) =>{
                     e.preventDefault();
                     window.location.href='https://app.bogged.finance/cro/swap?chain=cronos&tokenIn=CRO&tokenOut=0x90B29dB06577B0C5624E178A81377F2E0A095d2B&embed=1&theme=light';
@@ -78,11 +78,16 @@ function Hero() {
                 }>Buy Token</Button>
               </div>
               <div>
-              <Button variant='contained' size='large' color='success' onClick={
+              <Button variant='contained' size='large' style={{ backgroundColor: '#EAC778'}} onClick={
                   (e) =>{
                     e.preventDefault();
                     window.location.href='https://dexscreener.com/cronos/0xfb307dc1d74facef5a43bf34aabf2731571761b7';
                   }}>View Chart</Button>       
+                         
+              </div> */}
+
+              <div>
+              <Button variant='contained' size='large' style={{ backgroundColor: '#EAC778', width:'20vh'}}>Presale</Button>       
                          
               </div>
 

@@ -14,7 +14,7 @@ export const RoadmapHead= () => {
     <div>
         <Typography data-aos="zoom-in" data-aos-duration="500" sx={{ 
         fontFamily: 'NINJA', 
-        color: '#fff',
+        color: '#EAC778',
         fontWeight: 'bold',
         fontSize: { xs: 25, sm: 30, md: 60, lg: 70},
         textAlign: 'center',

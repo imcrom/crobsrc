@@ -37,7 +37,7 @@ import { useEffect } from 'react'
             data-aos="zoom-in" data-aos-duration="1500"
 
           >
-            Token Stealth Launch 
+            Unicrypt Presale 
             <br></br>
             1000+ Holders
             <br></br>
@@ -45,7 +45,9 @@ import { useEffect } from 'react'
             <br></br>
             Contract Audit
             <br></br>
-            Crypto.com Listing
+            CoinGecko Listing
+            <br></br>
+            CoinMarketCap Listing
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -58,7 +60,7 @@ import { useEffect } from 'react'
             <Typography variant="h6" component="span">
               Stage 1
             </Typography>
-            <Typography sx={{ color:'#fff'}}>Crobnobi&apos;s Birth</Typography>
+            <Typography sx={{ color:'#fff'}}>Arabian Shibnobi&apos;s Birth</Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -78,7 +80,7 @@ import { useEffect } from 'react'
             <br></br>
             Proprietary NFTs
             <br></br>
-            Nobi Swap
+            Arabian Swap
             
           </TimelineOppositeContent>
           <TimelineSeparator>
@@ -111,7 +113,7 @@ import { useEffect } from 'react'
             <br></br>
             Gear up for Major Exchange Listings
             <br></br>
-            Nobi Pad
+            Arabian Pad
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: 'secondary.main' }}/>
@@ -169,7 +171,7 @@ import { useEffect } from 'react'
             <br></br>
             200,000 Holders
             <br></br>
-            Crinja Fan Token
+            Arabian Shinja Fan Token
             <br></br>
             Propprietary NFT Platform
             <br></br>

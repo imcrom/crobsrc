@@ -11,18 +11,18 @@ import {
 const Footer = () => {
   return (
     <div id='footer' className="footer">
-      <h1 style={{ color: 'green',
+      <h1 style={{ color: '#EAC778',
                    textAlign: "center", 
                    marginTop: '20px',
                    marginBottom: '20px',
                    fontFamily: 'NINJA'}}>
-        CROBNOBI
+        Arabian Shibnobi
       </h1>
       <Container>
         <Row>
           <Column>
             <Heading>Whitepaper</Heading>
-            <FooterLink href="./whitepaper.pdf">Crobnobi Whitepaper v1.0</FooterLink>
+            <FooterLink href="./whitepaper.pdf">Arabian Shibnobi Whitepaper v1.0</FooterLink>
           </Column>
           <Column>
             <Heading>Page</Heading>
@@ -39,14 +39,14 @@ const Footer = () => {
           <Column>
             <Heading>Social Media</Heading>
            
-            <FooterLink href="https://twitter.com/crinjatoken">
+            <FooterLink href="https://twitter.com/arabianshinja">
               <i className="fab fa-twitter">
                 <span style={{ marginLeft: "10px" }}>
                   Twitter
                 </span>
               </i>
             </FooterLink>
-            <FooterLink href="https://t.me/CrobnobiToken">
+            <FooterLink href="https://t.me/ArabianShinjaBSC">
               <i className="fab fa-telegram">
                 <span style={{ marginLeft: "10px" }}>
                   Telegram

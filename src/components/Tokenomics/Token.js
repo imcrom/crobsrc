@@ -45,7 +45,7 @@ export const Token = () => {
                   textAlign: 'center',
                   paddingBottom: '40px',
                   fontSize: { xs: '15px', sm: '25px', md: '25px', lg: '30px', xl: '30px'},
-                  }} variant='h4' component='h1'>The <b> Crobnobi</b> token is a token launched on cronos chain 
+                  }} variant='h4' component='h1'>The <b>Arabian Shibnobi</b> token is a token launched on binance chain 
                                                   that features a low tax for development on marketing. The tax are
                                                   broken down as follows:</Typography>
                   <br></br>
@@ -71,7 +71,7 @@ export const Token = () => {
       <div className='text-container1'>
       <Typography data-aos="fade-left" data-aos-duration="1000" sx={{ 
             fontFamily: 'NINJA', 
-            color: '#fff',
+            color: '#EAC778',
             fontWeight: 'bold',
             fontSize: { xs: '30px', sm: '30px', md: '40px', lg: '50px', xl: '50px'},
             textAlign: {xs: 'center', sm: 'center', md: 'left', lg: 'left', xl: 'left'}
@@ -107,7 +107,7 @@ export const Token = () => {
       <div className='text-container1'>
         <Typography data-aos="fade-right" data-aos-duration="1000" sx={{ 
               fontFamily: 'NINJA', 
-              color: '#fff',
+              color: '#EAC778',
               fontWeight: 'bold',
               fontSize: { xs: '30px', sm: '30px', md: '40px', lg: '50px', xl: '50px'},
               textAlign: {xs: 'center', sm: 'center', md: 'left', lg: 'left', xl: 'left'},
