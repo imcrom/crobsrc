@@ -87,7 +87,12 @@ function Hero() {
               </div> */}
 
               <div>
-              <Button variant='contained' size='large' style={{ backgroundColor: '#EAC778', width:'20vh'}}>Presale</Button>       
+              <Button variant='contained' size='large' style={{ backgroundColor: '#EAC778', width:'20vh'}} onClick={
+                  (e) =>{
+                    e.preventDefault();
+                    window.location.href='https://app.unicrypt.network/amm/pancake-v2/ilo/0xFD92D88F67CF3c292D80372C9dc8D965dA33CFCc';
+                  }
+                }>Presale</Button>       
                          
               </div>
 

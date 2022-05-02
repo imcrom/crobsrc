@@ -22,7 +22,12 @@ const Header = () => {
             <Button className='button' color="inherit" href='#roadmap'>Roadmap</Button>
             <Button className='button' color="inherit" href='#footer'>Socials</Button>
             <div>
-              <Button className='button' color="inherit" variant="outlined" sx={{ color: '#EAC778', marginRight: '20px'}}>Presale</Button> 
+              <Button className='button' color="inherit" variant="outlined" sx={{ color: '#EAC778', marginRight: '20px'}} onClick={
+                  (e) =>{
+                    e.preventDefault();
+                    window.location.href='https://app.unicrypt.network/amm/pancake-v2/ilo/0xFD92D88F67CF3c292D80372C9dc8D965dA33CFCc';
+                  }
+                }>Presale</Button> 
               {/* <Button className='button' color="inherit" variant="outlined" sx={{ color: '#EAC778', marginRight: '20px'}} onClick={
                   (e) =>{
                     e.preventDefault();
